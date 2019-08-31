@@ -15,73 +15,80 @@
         <img src="resources/symbol.png" alt="symbol">
         <br>
         <h5 id="vjname"></h5>
-
         Level:
         <h5 id="vjlvl"></h5>
-
         Exp:
         <h5 id="vjxp"></h5>
       </button>
     </div>
     <div class="col">
-      <button type="button" class="btn btn-outline-primary">
+      <button type="button" class="btn btn-outline-primary" onclick="cc.finishDailies()">
         <img src="resources/symbol.png" alt="symbol">
         <br>
-        Chu Chu Island
-        <br>
+        <h5 id="ccname"></h5>
         Level:
-        <br>
+        <h5 id="cclvl"></h5>
         Exp:
+        <h5 id="ccxp"></h5>
       </button>
     </div>
     <div class="col">
-      <button type="button" class="btn btn-outline-primary">
+      <button type="button" class="btn btn-outline-primary" onclick="lc.finishDailies()">
         <img src="resources/symbol.png" alt="symbol">
         <br>
-        Lachelein
-        <br>
+        <h5 id="lcname"></h5>
         Level:
-        <br>
+        <h5 id="lclvl"></h5>
         Exp:
+        <h5 id="lcxp"></h5>
       </button>
     </div>
   </div>
   <br>
   <div class="row">
     <div class="col">
-      <button type="button" class="btn btn-outline-primary">
+      <button type="button" class="btn btn-outline-primary" onclick="ac.finishDailies()">
         <img src="resources/symbol.png" alt="symbol">
         <br>
-        Arcana
-        <br>
+        <h5 id="acname"></h5>
         Level:
-        <br>
+        <h5 id="aclvl"></h5>
         Exp:
+        <h5 id="acxp"></h5>
       </button>
     </div>
     <div class="col">
-      <button type="button" class="btn btn-outline-primary">
+      <button type="button" class="btn btn-outline-primary" onclick="mr.finishDailies()">
         <img src="resources/symbol.png" alt="symbol">
         <br>
-        Morass
-        <br>
+        <h5 id="mrname"></h5>
         Level:
-        <br>
+        <h5 id="mrlvl"></h5>
         Exp:
+        <h5 id="mrxp"></h5>
       </button>
     </div>
     <div class="col">
-      <button type="button" class="btn btn-outline-primary">
+      <button type="button" class="btn btn-outline-primary" onclick="es.finishDailies()">
         <img src="resources/symbol.png" alt="symbol">
         <br>
-        Esfera
-        <br>
+        <h5 id="esname"></h5>
         Level:
-        <br>
+        <h5 id="eslvl"></h5>
         Exp:
+        <h5 id="esxp"></h5>
       </button>
     </div>
   </div>
+  <div class="row">
+    <div class="col">
+      Total Arcane Force:
+      <h5 id="arc"></h5>
+      Total Stat Granted:
+      <h5 id="stat"></h5>
+    </div>
+  </div>
+
   <!-- You can also require other files to run in this process -->
   <script src="./renderer.js"></script>
   <script src="arcane.js"></script>
