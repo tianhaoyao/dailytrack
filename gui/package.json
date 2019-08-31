@@ -18,5 +18,9 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^6.0.5"
+  },
+  "dependencies": {
+    "python-shell": "^1.0.8",
+    "requirejs": "^2.3.6"
   }
 }
